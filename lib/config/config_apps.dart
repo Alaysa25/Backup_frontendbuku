@@ -1,15 +1,15 @@
 class ConfigApps {
-  final String url= 'http://10.0.2.2:8000';
+  static String url = 'http://localhost:8000';
   //Login backend
-  final String login = '/auth/login';
-  final String logout = '/auth/logout';
-  final String  check =  '/auth/checkstatus';
+  static String login = '/api/auth/login';
+  static String logout = '/api/auth/logout';
+  static String check = '/api/auth/checkstatus';
 
   //data buku
-  final String listbuku = '/buku';
-  final String detilbuku = '/buku/detil/';
-  final String caribuku = '/buku/cari';
-  final String tambahbuku = '/buku/tambah';
-  final String hapusbuku = '/buku/hapus/';
-  final String editbuku = '/buku/edit/';
+  static String listbuku = '/api/buku';
+  static String detilbuku = '/api/buku/detil/';
+  static String caribuku = '/api/buku/cari';
+  static String tambahbuku = '/api/buku/tambah';
+  static String hapusbuku = '/api/buku/hapus/';
+  static String editbuku = '/apite/buku/edit/';
 }
